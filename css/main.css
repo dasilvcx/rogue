@@ -1,0 +1,138 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+/***** BASE STYLES *****/
+
+    body {
+        color: #2b2b2b;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container{
+    	width: 1200px;
+    	margin: 0 auto;
+    }
+
+
+/***** GRID *****/
+
+        .full-width {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .half-width {
+            width: 600px;
+            float: left;
+        }
+
+        .third-width {
+            width: 400px;
+            float: left;
+        }
+
+/***** HEADER *****/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header h1 span {
+      color: #77a466;}
+
+header nav {
+      	float: right;
+      	padding: 46px 0;
+      }
+header nav ul li {
+      	text-transform: uppercase;
+      	font-weight: 700;
+      	font-size: 14px;
+      	padding: 0 10px;
+      	display: inline;
+      }
+header nav ul li a{
+            	text-decoration: none;
+            	color:#77a466;
+            }
+
+
+h1 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 30px;
+      margin: 0;
+    }
+
+img{
+      width: 100%;
+      border-bottom: 3px solid #77a466;
+      border-top: 3px solid #77a466;
+      height: auto;
+	}
+
+/***** BODY *****/
+
+h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+#specials {
+  list-style: none;
+	padding: 0;
+  }
+
+#specials li {
+  padding: 10px 0;
+	color:#77a466;
+
+}
+
+#reviews{
+  color: #333;
+	line-height: 21px;
+}
+
+#contact{
+  line-height: 24px;
+}
+
+  footer {
+  	height: 50px;
+  	border-top: 3px solid #eee;
+  	margin: 0 auto;
+  	clear: both;
+  	text-align: center;
+  }
+  h4 {
+    color: black;
+    text-transform: uppercase;
+  }
+h4 span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+
+}
